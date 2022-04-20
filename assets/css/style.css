@@ -1028,3 +1028,24 @@ section .container {
 .credits a:hover {
   color: #fff;
 }
+
+
+/*--------------------------------------------------------------
+# Custom
+--------------------------------------------------------------*/
+
+.bi-x {
+  font-size: 50px;
+  position: fixed;
+  right: 10px;
+  top: 7px;
+}
+
+.bi-holder {
+  color: white;
+  font-weight: 100;
+}
+
+.bi-holder:hover{
+  color:rgba(204, 204, 204, 0.5);
+}
