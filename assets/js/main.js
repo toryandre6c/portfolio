@@ -247,7 +247,7 @@
 })()
 
 
-//Fade out stuff
+//Fade in profile pictures 
 
 let fadeContainer = document.querySelector('#fadeContainer')
 let image1 = "assets/img/profile-pictures/tory.png"
