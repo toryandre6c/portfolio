@@ -245,3 +245,20 @@
   });
 
 })()
+
+
+//Fade out stuff
+
+let fadeContainer = document.querySelector('#fadeContainer')
+let image1 = "assets/img/profile-pictures/tory.png"
+let image2 = "assets/img/profile-pictures/me.jpg"
+let imageSources = [image1, image2]
+var counter = 0
+
+var fadeEffect = setInterval( () => {
+  counter = counter > imageSources.length - 1 ? 0 : counter
+  fadeContainer.src = imageSources[counter]
+  counter ++
+}, 5000)
+
+fadeEffect()
