@@ -259,6 +259,8 @@ var fadeEffect = setInterval( () => {
   counter = counter > imageSources.length - 1 ? 0 : counter
   fadeContainer.src = imageSources[counter]
   counter ++
-}, 8000)
+}, 10000)
+
+
 
 fadeEffect()
