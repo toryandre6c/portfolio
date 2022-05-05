@@ -254,7 +254,7 @@ let image1 = "assets/img/profile-pictures/Tory1.jpg"
 let image2 = "assets/img/profile-pictures/Tory2.jpg"
 let image3 = "assets/img/profile-pictures/Tory3.jpg"
 let image4 = "assets/img/profile-pictures/Tory4.jpg"
-let imageSources = [image1, image2]
+let imageSources = [image1, image2, image3, image4]
 var counter = 0
 
 var fadeEffect = setInterval( () => {
