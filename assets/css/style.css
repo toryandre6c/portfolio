@@ -398,7 +398,7 @@ section .container {
 	animation-name: fadeInOpacity;
 	animation-iteration-count: infinite;
 	animation-timing-function: ease-in;
-	animation-duration: 10s;
+	animation-duration: 50s;
 }
 
 @keyframes fadeInOpacity {
