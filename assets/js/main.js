@@ -250,8 +250,10 @@
 //Fade in profile pictures 
 
 let fadeContainer = document.querySelector('#fadeContainer')
-let image1 = "assets/img/profile-pictures/tory.png"
-let image2 = "assets/img/profile-pictures/me.jpg"
+let image1 = "assets/img/profile-pictures/Tory1.png"
+let image2 = "assets/img/profile-pictures/Tory2.jpg"
+let image3 = "assets/img/profile-pictures/Tory3.jpg"
+let image4 = "assets/img/profile-pictures/Tory4.jpg"
 let imageSources = [image1, image2]
 var counter = 0
 
